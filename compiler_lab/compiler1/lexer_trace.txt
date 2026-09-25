@@ -1,0 +1,4 @@
+< (State 0 -> 1 -> Retract): Reads < then looks ahead at the space ' '. Because space doesn't match = or >, it retracts the index by 1 so the space isn't lost, drops to State 4, and returns LT.
+> (State 0 -> 6 -> Retract): Reads > and looks ahead at the space '>'. It retracts the index back by 1, drops to State 8, and returns GT.
+> (State 0 -> 6 -> Retract): Reads > and looks ahead at the space ' '. It retracts the index back by 1, drops to State 8, and returns GT.
+<= (State 0 -> 1 -> 2): Consumes two characters, matches perfectly, returns LE.

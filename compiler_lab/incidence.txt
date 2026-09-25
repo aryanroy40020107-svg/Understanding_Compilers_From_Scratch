@@ -1,0 +1,12 @@
+INCIDENCE MATRIX
+g_E f_F g_T/g_F/f_* f_id g_id f_+ f_E/g_+ f_T/g_* f_$ g_$ 
+E_g_E->f_$ 
+E_f_F->f_E/g_+ E_f_F->f_T/g_* E_f_F->g_$ 
+E_g_T/g_F/f_*->f_+ E_g_T/g_F/f_*->f_$ 
+E_f_id->f_E/g_+ E_f_id->f_T/g_* E_f_id->g_$ 
+E_g_id->g_T/g_F/f_* E_g_id->f_+ E_g_id->f_$ 
+
+E_f_E/g_+->g_$ 
+E_f_T/g_*->f_E/g_+ E_f_T/g_*->g_$ 
+
+
